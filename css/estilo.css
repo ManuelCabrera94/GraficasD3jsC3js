@@ -1,0 +1,27 @@
+body{
+	background-color:#3E3E3E;
+    margin-left:80;
+    margin-top: 50;
+	}
+p{
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	text-align-last:center;
+	/*font-style: oblique;*/
+	font-weight: bold;
+	color:#DDD817;
+}
+h1{
+	color:white;}
+#pie{
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:10px;
+	text-align:center;
+	font-weight:normal;
+	color:white;
+	}
+#titulo{
+	text-align:center;}
+	
+#borde{
+	border-color:white;}
