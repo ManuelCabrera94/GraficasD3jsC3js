@@ -4,9 +4,9 @@ var chart = c3.generate({
             
           columns: [
           
-        ["PRIMARIA", 14789406],
-        ["SECUNDARIA", 6340232],
-        ["BACHILLLERATO", 4057265],
+        ["PRIMARIA", 14580379],
+        ["SECUNDARIA", 6571858],
+        ["BACHILLER", 4602837],
           ],
           type : 'pie'
 		},
@@ -19,10 +19,3 @@ var chart = c3.generate({
           }
         }
  });
- 
- 	d3.select('#gPastel2 svg').append('text')
-		.attr('x', d3.select('#gPastel2 svg').node().getBoundingClientRect().width / 2)
-		.attr('y', 10)
-		.attr('text-anchor', 'middle')
-		.style('font-size', '1.4em')
-		.text('Grafica de Pastel del 2012');

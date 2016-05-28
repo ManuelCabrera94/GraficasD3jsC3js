@@ -4,9 +4,9 @@
             
           columns: [
           
-        ["PRIMARIA", 14909419],
-        ["SECUNDARIA", 6167424],
-        ["BACHILLLERATO", 3950126],
+        ["PRIMARIA", 14789406],
+        ["SECUNDARIA", 6340232],
+        ["BACHILLER", 4057265],
           ],
           type : 'pie'
 		},
@@ -19,12 +19,3 @@
           }
         }
       });
-	  
-	d3.select('#gPastel1 svg').append('text')
-		.attr('x', d3.select('#gPastel1 svg').node().getBoundingClientRect().width / 2)
-		.attr('y', 10)
-		.attr('text-anchor', 'middle')
-		.style('font-size', '1.4em')
-		.text('Grafica de Pastel del 2011');
-		
-	//d3.select('#gPastel1 svg').attr("width", 345);
