@@ -1,16 +1,20 @@
 /*-- Chart --*/
 .c3 svg {
-  font: 10px sans-serif;
-  -webkit-tap-highlight-color: transparent; }
+  font: 12px arial;
+  -webkit-tap-highlight-color: transparent;
+  background-color:#3E3E3E;
+  margin-left:-40px; }
 
 .c3 path, .c3 line {
-  fill: none;
-  stroke: #000; }
+  fill:none;
+ /* stroke: #000;*/
+ stroke:#06C; }
 
 .c3 text {
-  -webkit-user-select: none;
+  -webkit-user-select:none;
   -moz-user-select: none;
-  user-select: none; }
+  user-select: none;
+  fill:white;}
 
 .c3-legend-item-tile,
 .c3-xgrid-focus,
@@ -20,19 +24,22 @@
   shape-rendering: crispEdges; }
 
 .c3-chart-arc path {
-  stroke: #fff; }
+  /*stroke: #fff;*/stroke:white; 
+}
 
 .c3-chart-arc text {
-  fill: #fff;
-  font-size: 13px; }
+ /* fill: #fff;*/
+ fill:white;
+  font-size: 15px; }
 
 /*-- Axis --*/
 /*-- Grid --*/
 .c3-grid line {
-  stroke: #aaa; }
+ /*stroke: #aaa;*/
+ stroke: #30C;  }
 
 .c3-grid text {
-  fill: #aaa; }
+ /*fill: #aaa;*/fill: #900; }
 
 .c3-xgrid, .c3-ygrid {
   stroke-dasharray: 3 3; }
@@ -40,11 +47,11 @@
 /*-- Text on Chart --*/
 .c3-text.c3-empty {
   fill: #808080;
-  font-size: 2em; }
+  font-size: 14px; }
 
 /*-- Line --*/
 .c3-line {
-  stroke-width: 1px; }
+  stroke-width: 2px; }
 
 /*-- Point --*/
 .c3-circle._expanded_ {
@@ -84,7 +91,8 @@
 /*-- Select - Drag --*/
 /*-- Legend --*/
 .c3-legend-item {
-  font-size: 12px; }
+  font-size: 14px;
+  }
 
 .c3-legend-item-hidden {
   opacity: 0.15; }
@@ -115,13 +123,13 @@
 
 .c3-tooltip tr {
   border: 1px solid #CCC; }
-
+/*--color de la etiqueta de la leyenda--*/
 .c3-tooltip th {
-  background-color: #aaa;
+  background-color:bisque;/* #aaa*/;
   font-size: 14px;
   padding: 2px 5px;
   text-align: left;
-  color: #FFF; }
+  color: #03F; /*fff*/}
 
 .c3-tooltip td {
   font-size: 13px;
@@ -165,8 +173,3 @@
 .c3-chart-arc .c3-gauge-value {
   fill: #000;
   /*  font-size: 28px !important;*/ }
-.right {
-    float:right;
-	margin-right: 15px;
-}
-
